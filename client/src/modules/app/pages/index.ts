@@ -1,2 +1,2 @@
-export { AppPage } from "./app.page";
 export { ErrorPage } from "./error.page";
+export { HomePage } from "./home.page";
