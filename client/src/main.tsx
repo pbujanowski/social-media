@@ -3,8 +3,11 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 
 import { App } from "./app";
+import { initLocalization } from "./localization";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+
+initLocalization();
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
