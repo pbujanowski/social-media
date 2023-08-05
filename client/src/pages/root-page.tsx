@@ -1,11 +1,11 @@
 import { FC } from "react";
 
-const App: FC = () => {
+const RootPage: FC = () => {
   return (
     <main>
-      <p>Hello world!</p>
+      <p>Hello!</p>
     </main>
   );
 };
 
-export { App };
+export { RootPage };
